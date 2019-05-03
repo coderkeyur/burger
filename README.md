@@ -5,9 +5,22 @@ Once the user clicks  Devour it! button, the burger will move to the right side 
 
 All the burger entries are saved in database, whether devoured or not. 
 
+### Demo
+Experience the heroku deployed app [https://burger-s-app.herokuapp.com/]
+
+### Installation to local machine
+* Clone repo to your local machine, run `npm install` 
+* In `connection.js` create local server and change information to your local machine server.
+* Run local server with `node server.js`, 
+* then check following link in browser: `http://localhost:3000/`
+
 ### Technologies used
 * MySQL
 * Node
 * Express
 * Handlebars
 * Homemade ORM
+* Materialize
+
+### Author
+kpcoder
